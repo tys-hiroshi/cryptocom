@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [],
+
+    "name": "Python: Debug invoke fibonacci --num 10",
+    "type": "python",
+    "request": "launch",
+    "program": "/Users/maccat/.local/share/virtualenvs/cryptocom-i02m-PjP/bin/invoke", // `pipenv run which invoke` の結果を挿入
+    "console": "integratedTerminal",
+    "args": ["fibonacci", "--num", "10"]
+}
